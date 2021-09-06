@@ -10,11 +10,8 @@ Use `forEach` to loop over the input array and work with each value.  Push the n
 
 const addOne = (arr) => {
   let arrNew = [];
-
   arr.forEach(number => {
-
     arrNew.push(number + 1);
-
   });
   return arrNew;
 };
@@ -31,10 +28,7 @@ const addExclamation = (arr) => {
   let newArr = [];
 
   arr.forEach(element => {
-
     newArr.push(element + '!');
-
-
   });
   return newArr;
 };
@@ -50,11 +44,8 @@ Use `forEach` to loop over the input array. The modified strings should each be 
 
 const allUpperCase = (arr) => {
   let newArr = [];
-
   arr.forEach(item => {
-
     newArr.push((item.toUpperCase()));
-
   });
   return newArr;
 };
@@ -79,7 +70,6 @@ let newArr1 = [];
 //   // Solution code here...
 // };
 const speaker = (words, callback) => {
-  // Solution code here...
   words.forEach(words => {
     newArr1.push(callback(words));
   });
@@ -106,13 +96,10 @@ Return the modified array.
 const addValues = (arr, value) => {
   arr.push(value);
 };
-
 const addNumbers = (num, arr, times, callback) => {
-
   for (let i = 0; i < times; i++) {
     callback(arr, num);
   }
-
   return arr;
 };
 
@@ -134,9 +121,9 @@ The inventory is formatted like this:
 This function should use forEach to populate your grocery list based on the store's inventory. If the item is available, add it to your list. Return the final list.
 ------------------------------------------------------------------------------------------------ */
 
-const createList = (availableItems) => {
+const createList = () => {
   // Solution code here...
-  
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -153,7 +140,7 @@ Iterate over the array using forEach to determine the output based on several ru
 Return the resulting output array.
 ------------------------------------------------------------------------------------------------ */
 
-const fizzbuzz = (arr) => {
+const fizzbuzz = () => {
   // Solution code here...
 };
 
